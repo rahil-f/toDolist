@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="api.js"></script>
+    <title>todolist</title>
+</head>
+<style>
+    #total {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    #lel {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+</style>
+
+<body>
+
+    <div id="total">
+
+    </div>
+    <form id="submit" onsubmit="newtodo(this)">
+        Enter new todolist: <input type="text" name="todo">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

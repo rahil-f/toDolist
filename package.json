@@ -1,0 +1,14 @@
+{
+    "name": "todo",
+    "version": "1.0.0",
+    "description": "to do list",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "author": "felix rahil",
+    "license": "ISC",
+    "dependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
